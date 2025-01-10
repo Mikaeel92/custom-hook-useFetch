@@ -1,8 +1,9 @@
 import React from 'react'
+import UseFetch from '../CustomUseFetch'
 
 const App = () => {
 
-  const {data, loading, errorMsg} = Usefetch('https://dummyjson.com/products')
+  const {data, loading, errorMsg} = UseFetch('https://dummyjson.com/products')
 
   return (
     <div>
